@@ -1,0 +1,5 @@
+﻿    
+Run the command below to generate or Update the Domain Objects from the database.
+The command needs to be run in context of the .Application.Domain from Package Manager console 
+
+Scaffold-DbContext "Server=(LocalDb)\MSSQLLocalDb;Database=iEduCareDb;Integrated Security=true;MultipleActiveResultSets=true" Microsoft.EntityFrameworkCore.SqlServer -OutputDir DataModel -Context iEduCareDbContext -force

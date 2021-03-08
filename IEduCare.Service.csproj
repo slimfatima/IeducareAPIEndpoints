@@ -1,0 +1,16 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="AutoMapper" Version="10.1.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\IEduCare.Domain\IEduCare.Domain.csproj" />
+    <ProjectReference Include="..\IEduCare.Shared\IEduCare.Shared.csproj" />
+  </ItemGroup>
+
+</Project>
